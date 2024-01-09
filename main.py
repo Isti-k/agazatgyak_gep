@@ -1,9 +1,9 @@
 import minosites
 import sorozat
 
-minosites.feladat
+minosites.feladat()
 
-sorozat.feladat1
-sorozat.oszthatoak_szama
+sorozat.feladat1()
+sorozat.oszthatoak_szama()
 
 

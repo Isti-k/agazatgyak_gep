@@ -1,5 +1,6 @@
 import random
 
+
 def feladat1():
     lista=[]
     for i in range(15):
@@ -10,7 +11,7 @@ def feladat1():
         else:
             print(szam,end="")    
 
-def oszthatoak_szama(lista):
+def oszthatoak_szama():
     szamlalo=0
     for i in range(0,len(lista),1):
         if lista[i] % 10==0:
