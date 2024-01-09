@@ -1,11 +1,11 @@
 import random
 
+lista=[]
 
 def feladat1():
-    lista=[]
     for i in range(15):
         szam=random.randint(-90,500)
-        lista.append(str(szam))
+        lista.append(szam)
         if i <14:
             print(szam,end="*")
         else:
